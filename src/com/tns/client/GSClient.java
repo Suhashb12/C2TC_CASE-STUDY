@@ -8,10 +8,10 @@ public class GSClient {
 
 	public static void main(String[] args) {
 		GSShopFactory factory=new GSShopFactory();
-		GSNormalAcc gsn=(GSNormalAcc)factory.getNewNormalAccount(1212,"suhas", 600.00f);
-        gsn.bookProduct(gsn.getcharges());
-		GSPrimeAcc gsp=(GSPrimeAcc)factory.getNewPrimeAccount(12122, "suresh", 500.0f, true);
-		gsp.bookProduct(gsp.getcharges());	
+		GSNormalAcc gsn=(GSNormalAcc)factory.getNewNormalAccount(1212, "padmini", 600.00f);
+		gsn.bookProduct(gsn.getCharges());
+		GSPrimeAcc gsp=(GSPrimeAcc) factory.getNewPrimeAccount(12122, "suresh", 500.00f, true);
+		gsp.bookProduct(gsp.getCharges());
 	}
 
 }
